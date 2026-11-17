@@ -1,0 +1,19 @@
+# Data (large, and Ninapro's license forbids redistribution)
+data/
+*.mat
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# STM32CubeIDE build output
+firmware/**/Debug/
+firmware/**/Release/
+*.elf
+*.map
+*.o
+
+# macOS
+.DS_Store
